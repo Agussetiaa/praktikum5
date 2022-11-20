@@ -27,6 +27,7 @@ selamat mengerjakan...
 
 #### Langkah- langkah program
 - Pertama kita buat list :
+
 ``
 NAMA  = []
 NIM   = []
@@ -35,7 +36,9 @@ UTS   = []
 UAS   = []
 TOTAL = []
 ``
+
 - Jika sudah di buat program seperti di atas, maka kita akan membuat programa perulangan agar kita dapat memasukan data sebanyak-banyaknya.
+
 ``
 while True :
      nama = input('Nama : ')
@@ -51,5 +54,6 @@ while True :
      nakhir = (int(ntugas( * ,3) + (int((uts) * .35) + (int(uas) * .35)
      Total.append(nakhir)
 ``
+
 - 
      
