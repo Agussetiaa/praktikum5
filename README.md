@@ -57,6 +57,7 @@ while True:
 
 - Membuat program pilihan **(y/t)**, kalau kita menginput **y**, maka kita diminta untuk mengisi data lagi, tetapi jika kita menginputkan **t**, maka program akan selesai, dan menampilkan inputan data yang sudah kita buat.
 - Dan kita akan menggunakan format string untuk membuat tabel nya.
+
 ``
 ulangi = ' ' 
 while ulangi != 'y' and ulangi != 't':
@@ -79,6 +80,7 @@ if ulangi == 't':
          print(X)
      break
 ``
+
 - Hasil program yang sudah di buat bila di jalankan tampilan nya akan seperti gambar di bawah ini:
 ## Tampilan program
 !gambar/gambarposes3.png
