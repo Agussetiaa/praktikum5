@@ -28,62 +28,62 @@ selamat mengerjakan...
 #### Langkah- langkah program
 - Pertama kita buat list :
 
-``
-NAMA  = []
+```
+Nama  = []
 NIM   = []
-TUGAS = []
+Tugas = []
 UTS   = []
 UAS   = []
-TOTAL = []
-``
+Total = []
+```
 
 - Jika sudah di buat program seperti di atas, maka kita akan membuat programa perulangan agar kita dapat memasukan data sebanyak-banyaknya.
 
-``
-while True:
-     nama = input('Nama : ')
-     Nama.append(nama)
-     nim = int(input('NIM : '))
-     NIM.append(nim)
-     ntugas = float(input('TUGAS : '))
-     TUGAS.append(ntugas)
-     uts = float(input('UTS : '))
-     UTS.append(uts)
-     uas = float(input('UAS : '))
-     UAS.append(uas)
-     Nakhir = (int(ntugas( * ,3) + (int((uts) * .35) + (int(uas) * .35)
-     Total.append(Nakhir)
-``
+```
+ while True:
+      nama = input('Nama : ')
+      Nama.append(nama)
+      nim = int(input('NIM : '))
+      NIM.append(nim)
+      ntugas = float(input('Nilai Tugas : '))
+      TUGAS.append(ntugas)
+      uts = float(input('Nilai UTS : '))
+      UTS.append(uts)
+      uas = float(input('Nilai UAS : '))
+      UAS.append(uas)
+      Nakhir = (int(ntugas( * ,3) + (int((uts) * .35) + (int(uas) * .35)
+      Total.append(Nakhir)
+```
 
-- Membuat program pilihan **(y/t)**, kalau kita menginput **y**, maka kita diminta untuk mengisi data lagi, tetapi jika kita menginputkan **t**, maka program akan selesai, dan menampilkan inputan data yang sudah kita buat.
+- Membuat program pilihlan **(y/t)?**, kalau kita menginput **y**, maka kita diminta untuk mengisi data lagi, tetapi jika kita menginputkan **t**, maka program akan selesai, dan menampilkan inputan data yang sudah kita buat.
 - Dan kita akan menggunakan format string untuk membuat tabel nya.
 
-``
-ulangi = ' ' 
-while ulangi != 'y' and ulangi != 't':
+```
+ ulangi = ' ' 
+ while ulangi != 'y' and ulangi != 't':
      ulangi = input('Tambah data = (y/t)? ')
-if ulangi == 't':
-     print('=') *80)
-     print('| NO | \tNAMA\t |  NIM  |  UTS  |  UAS  | AKHIR  |')
-     print('=') *80)
+ if ulangi == 't':
+     print('=') *65)
+     print('| NO | \tNAMA\t |  NIM  |  UTS  |  UAS  | AKHIR |')
+     print('=') *65)
      
      for i range (len(NIM)):
-         nam = '| %d' | \t%s\t ' % (i+1, Nama[i})
-         nim = '| %d' | % NIM[i]
-         tug = '| %.2f'  % Tugas[i]
-         uts = '| %.2f'  % UTS[i]
-         uas = '| %.2f'  % UAS[i]
-         akh = '| %.2f'  % Total[i]
+         nam = '| %d' | \t%s\t' % (i+1, Nama[i})
+         nim = '| %d' % NIM[i]
+         tug = ' | %.2f'  % Tugas[i]
+         uts = '   | %.2f'  % UTS[i]
+         uas = '   | %.2f'  % UAS[i]
+         akh = '   | %.2f'  % Total[i]
          len = '|'
          
          X = nam + nim + tug + uts + uas + akh + len
          print(X)
      break
-``
+```
 
 - Hasil program yang sudah di buat bila di jalankan tampilan nya akan seperti gambar di bawah ini:
 ## Tampilan program
 !gambar/gambarposes3.png
 
-## silhakan mencoba semoga berhasil :)
+## silahakan mencoba semoga berhasil :)
 
