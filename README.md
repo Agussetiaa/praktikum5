@@ -28,24 +28,14 @@ selamat mengerjakan...
 #### Langkah- langkah program
 - Pertama kita buat list :
 
-``
+~~
 NAMA  = []
-``
-``
 NIM   = []
-``
-``
 TUGAS = []
-``
-``
 UTS   = []
-``
-``
 UAS   = []
-``
-``
 TOTAL = []
-``
+~~
 
 - Jika sudah di buat program seperti di atas, maka kita akan membuat programa perulangan agar kita dapat memasukan data sebanyak-banyaknya.
 
