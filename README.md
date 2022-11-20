@@ -21,28 +21,28 @@
 ## TUGAS PRAKTIKUM 5
 ### Buatlah program sederhana untuk menambahkan data ke dalam sebuah list dengan rincian:
 - Buatlah program meminta masukan data sebanyak-banyaknya (gunakan perulangan)
-- Tampilkan sebuah pilihan untuk menambahkan data *(y/t)?*, apabila jawaban t (tidak) maka program akan menampilkan daftar datanya.
+- Tampilkan sebuah pilihan untuk menambahkan data **(y/t)?**, apabila jawaban t (tidak) maka program akan menampilkan daftar datanya.
 - Nilai akhir dihitunng dari perhitungan 3 komponen nilai (tugas : 30%, uts : 35%, uas : 35%)
 selamat mengerjakan...
 
 #### Langkah- langkah program
 - Pertama kita buat list :
 
-~~
+``
 NAMA  = []
 NIM   = []
 TUGAS = []
 UTS   = []
 UAS   = []
 TOTAL = []
-~~
+``
 
 - Jika sudah di buat program seperti di atas, maka kita akan membuat programa perulangan agar kita dapat memasukan data sebanyak-banyaknya.
 
 ``
-while True :
+while True:
      nama = input('Nama : ')
-     NAMA.append(nama)
+     Nama.append(nama)
      nim = int(input('NIM : '))
      NIM.append(nim)
      ntugas = float(input('TUGAS : '))
@@ -51,9 +51,37 @@ while True :
      UTS.append(uts)
      uas = float(input('UAS : '))
      UAS.append(uas)
-     nakhir = (int(ntugas( * ,3) + (int((uts) * .35) + (int(uas) * .35)
-     Total.append(nakhir)
+     Nakhir = (int(ntugas( * ,3) + (int((uts) * .35) + (int(uas) * .35)
+     Total.append(Nakhir)
 ``
 
-- 
+- Membuat program pilihan **(y/t)**, kalau kita menginput **y**, maka kita diminta untuk mengisi data lagi, tetapi jika kita menginputkan **t**, maka program akan selesai, dan menampilkan inputan data yang sudah kita buat.
+- Dan kita akan menggunakan format string untuk membuat tabel nya.
+``
+ulangi = ' ' 
+while ulangi != 'y' and ulangi != 't':
+     ulangi = input('Tambah data = (y/t)? ')
+if ulangi == 't':
+     print('=') *80)
+     print('| NO | \tNAMA\t |  NIM  |  UTS  |  UAS  | AKHIR  |')
+     print('=') *80)
      
+     for i range (len(NIM)):
+         nam = '| %d' | \t%s\t ' % (i+1, Nama[i})
+         nim = '| %d' | % NIM[i]
+         tug = '| %.2f'  % Tugas[i]
+         uts = '| %.2f'  % UTS[i]
+         uas = '| %.2f'  % UAS[i]
+         akh = '| %.2f'  % Total[i]
+         len = '|'
+         
+         X = nam + nim + tug + uts + uas + akh + len
+         print(X)
+     break
+``
+- Hasil program yang sudah di buat bila di jalankan tampilan nya akan seperti gambar di bawah ini:
+## Tampilan program
+!gambar/gambarposes3.png
+
+## silhakan mencoba semoga berhasil :)
+
