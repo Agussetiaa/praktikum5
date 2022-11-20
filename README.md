@@ -30,10 +30,20 @@ selamat mengerjakan...
 
 ``
 NAMA  = []
+``
+``
 NIM   = []
+``
+``
 TUGAS = []
+``
+``
 UTS   = []
+``
+``
 UAS   = []
+``
+``
 TOTAL = []
 ``
 
