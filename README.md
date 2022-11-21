@@ -37,10 +37,10 @@ selamat mengerjakan...
 
 #### Langkah- langkah program
 - Pertama kita akan membuat program, dan akan membuat perulangan supaya kita bisa menampilkan data sebanyak-banyakya.
-- setelah terbuat program pilihlah **(y/t)?**, jika kita input **y** maka akan diminta untuk masukan data lagi. bilamana kita input **t** maka program akan selesai dan akan menampilka data yang sudah di masukan.
-- Dan kita akan menggunakan format string untuk membuat tabel nya.
+- setelah dibuat, kita akan diminta untuk memilih/pilihlah **(y/t)?**, jika kita input **(y)** maka akan diminta untuk **masukan data lagi**. bilamana kita input **(t)** maka program akan **selesai** dan akan menampilka data yang sudah di masukan.
+- supaya dibikin seperti tabel kita buat dengan format srting agar keliatan tersusun rapih.
 ## Tampilan program
 !gambar/gambarposes3.png
 
-## teteap Semangat :)
+## tetap Semangat :)
 
