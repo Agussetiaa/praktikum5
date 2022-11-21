@@ -1,23 +1,25 @@
 ## PRAKTIKUM 5
-## Latihan 5
+## Latihan
 ## Buatlah sebuah list sebanyak 5 elemen dengan nilai bebas.
 
 #### Akses list :
 - Tampilkan elemen ke 3
 - Ambil nilai ke 2 sampai elemen ke 4
 - Ambil elemen terakhir
-!gambar/ss11.png
-!gambar/ss11a.png
+!gambar/gambarproses.ss11.png
+!gambar/gambarproses,ss11a.png
 #### Ubah elemen list :
 - ubah elemen ke 4 dengan nilai lainnya
 - ubah elemen ke 4 sampai dengan elemen terakhir
-- !gambar/gambarproses.ss11a.png
+!gambar/gambarproses.ss22.png
+!gambar/gambarproses.ss22a.png
 #### Tambah elemen list :
 - Ambil 2 bagian dari list pertaman (A) dan jadikan list ke 2 (B)
 - Tambah list (B) dengan nilai string
 - Tambah list (B) dengan 3 nilai
 - Gabungkan list (B) dengan list (A)
-!gambar/gambarproses.33.png
+!gambar/gambarproses.ss33.png
+!gambar/gambarproses.ss33a
 
 ## TUGAS PRAKTIKUM 5
 ### Buatlah program sederhana untuk menambahkan data ke dalam sebuah list dengan rincian:
