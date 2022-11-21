@@ -6,11 +6,12 @@
 - Tampilkan elemen ke 3
 - Ambil nilai ke 2 sampai elemen ke 4
 - Ambil elemen terakhir
-!gambar/gambarproses.1.png
+!gambar/ss11.png
+!gambar/ss11a.png
 #### Ubah elemen list :
 - ubah elemen ke 4 dengan nilai lainnya
 - ubah elemen ke 4 sampai dengan elemen terakhir
-- !gambar/gambarproses.22png
+- !gambar/gambarproses.ss11a.png
 #### Tambah elemen list :
 - Ambil 2 bagian dari list pertaman (A) dan jadikan list ke 2 (B)
 - Tambah list (B) dengan nilai string
@@ -85,5 +86,5 @@ Total = []
 ## Tampilan program
 !gambar/gambarposes3.png
 
-## silahakan mencoba semoga berhasil :)
+## teteap Semangat :)
 
