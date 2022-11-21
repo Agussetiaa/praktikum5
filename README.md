@@ -33,6 +33,8 @@
 - Buatlah program meminta masukan data sebanyak-banyaknya (gunakan perulangan)
 - Tampilkan sebuah pilihan untuk menambahkan data **(y/t)?**, apabila jawaban t (tidak) maka program akan menampilkan daftar datanya.
 - Nilai akhir dihitunng dari perhitungan 3 komponen nilai (tugas : 30%, uts : 35%, uas : 35%)
+- Buat Flowchart dan penjelasannya programnya pada file README.md
+- Commit dan push repository github
 selamat mengerjakan...
 
 #### Langkah- langkah program
