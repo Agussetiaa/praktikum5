@@ -6,8 +6,8 @@
 - Tampilkan elemen ke 3
 - Ambil nilai ke 2 sampai elemen ke 4
 - Ambil elemen terakhir
-!gambar/gambarproses.ss11.png
-!gambar/gambarproses,ss11a.png
+!gambarproses/ss11.png
+!gambar/ss11a.png
 #### Ubah elemen list :
 - ubah elemen ke 4 dengan nilai lainnya
 - ubah elemen ke 4 sampai dengan elemen terakhir
