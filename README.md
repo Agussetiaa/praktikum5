@@ -48,7 +48,7 @@ selamat mengerjakan...
 
 ![gambar](gambarproses/ss44a.png)
 #### Tampilan Flowchart
-![gambar](gambarproses/ss5.png)
+![gambar](gambarproses/ss55.png)
 
 ## tetap Semangat :)
 
